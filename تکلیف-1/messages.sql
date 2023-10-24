@@ -1,7 +1,7 @@
 CREATE TABLE messages
 (
   message_id INT NOT NULL AUTO_INCREMENT,
-  content_message VARCHAR NOT NULL,
+  content_message VARCHAR(255) NOT NULL,
   user_id INT NOT NULL,
   PRIMARY KEY (message_id),
   FOREIGN KEY (user_id) REFERENCES users(user_id)
