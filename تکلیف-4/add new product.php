@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 
 //2.query
 $sql = "INSERT INTO `product`(`name`, `brand`, `Purchase_price`, `Quantity_in_stock`, `Category`, `price`)
- VALUES ('یخچال اسنووا مدل 3551','snowa',40000000,20,'یخچال',42000000)";
+ VALUES ('refrigerator Snova model 3551','snowa',40000000,20,'refrigerator',42000000)";
 $result = mysqli_query($conn , $sql);
 
 //3.close conection
